@@ -1,0 +1,46 @@
+:root {
+    --header-footer-color: rgb(30, 243, 243);
+}
+/* Start to Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:var(--header-footer-color);
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding: 25px;
+}
+header nav ul li {
+    font-size: medium;
+    padding: 10px 15px;
+   margin: 10px 5px;
+}
+/* Start to Footer Styling */
+footer {
+    width: 100%;
+    padding: 40px 0px;
+    background-color:var(--header-footer-color);
+}
+footer h2 {
+    padding: 40%;
+    display: inline;
+    font-size: 25px;
+    margin: 0;
+}
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    width: 80%;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: red;
+}
