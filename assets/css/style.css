@@ -8,6 +8,9 @@ header {
     flex-wrap: wrap;
     background-color:var(--header-footer-color);
 }
+header h1 {
+    padding: 30px;
+}
 header nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -23,18 +26,22 @@ header nav ul li {
 }
 /* Start to Footer Styling */
 footer {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     padding: 40px 0px;
     background-color:var(--header-footer-color);
 }
 footer h2 {
-    padding: 40%;
-    display: inline;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
     font-size: 25px;
     margin: 0;
 }
 footer div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 25px;
     width: 80%;
@@ -43,4 +50,15 @@ footer div {
 }
 footer a {
     color: red;
+}
+.hero {
+    height: 550px;
+    background-image: url(..//images/SLC.jpeg);
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
 }
