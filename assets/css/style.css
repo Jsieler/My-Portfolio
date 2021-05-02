@@ -4,6 +4,10 @@
 }
 body {
     color: white;
+    background: cornflowerblue;
+}
+h2 {
+    color: black;
 }
 /* Start to Header Styling */
 header {
@@ -14,6 +18,14 @@ header {
 }
 header h1 {
     padding: 30px;
+    text-shadow: 5px 5px blue;
+    font-size: 45px;
+    font-weight: bolder;
+    font-style: italic;
+}
+header h1:hover {    
+    font-size: 55px;
+    text-shadow: 5px 5px rgb(32, 160, 235);
 }
 header nav ul {
     display: flex;
@@ -83,11 +95,71 @@ footer a:hover {
 }
 /* About Me Section */
 #about {
-background-color: var(--primary-section-background);
-display: block;
+background-color: white;
+display: flex;
 margin-bottom: 20px;
 padding: 50px;
 height: 300px;
 font-family: serif,fantasy;
-color: white;
+color: black;
+width: max-content;
+background-size: cover;
+}
+.bio {
+    background-color: var(--primary-section-background);
+    color: white;
+    border-bottom-left-radius: 30px 30px;
+    border-bottom-right-radius: 30px 30px;
+    border-top-left-radius: 30px 30px;
+    border-top-right-radius: 30px 30px;
+}
+/* Work Section */
+
+
+.project-container {
+    height: 600px;
+    display: flow-root;
+    justify-content: space-between;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+.project-container h2 {
+    text-align: center;
+}
+#horiseon {
+    background-image: url(../images/Horiseon.png);
+    display: flex;
+    margin: 0 25px;
+    height: 350px;
+    background-size: cover;
+}
+#run-buddy {
+    background-image: url(../images/Runbuddy.png);
+    display: flex;
+    margin: 25px 25px;
+    height: 125px;
+    background-size: cover;
+}
+#upcomingproject1 {
+    background-image: url(../images/ComingSoon.png);
+    display: flex;
+    margin: 25px 25px;
+    height: 125px;
+    background-size: cover;
+}
+#upcomingproject2 {
+    background-image: url(../images/ComingSoon.png);
+    display: flex;
+    margin: 25px 25px;
+    height: 125px;
+    background-size: cover;
+}
+.main-project {
+    width: 50%;
+    float: left;
+}
+.side-project {
+    width: 50%;
+    float: right;
 }
