@@ -1,5 +1,9 @@
 :root {
-    --header-footer-color: rgb(30, 243, 243);
+    --header-footer-color: rgb(124, 122, 241);
+    --primary-section-background: rgb(19, 19, 190);
+}
+body {
+    color: white;
 }
 /* Start to Header Styling */
 header {
@@ -23,6 +27,14 @@ header nav ul li {
     font-size: medium;
     padding: 10px 15px;
    margin: 10px 5px;
+}
+header nav ul li a {
+    color: white;
+}
+header nav ul li a:hover {
+    font-weight:bolder;
+    color:blue;
+    font-size: 20px;
 }
 /* Start to Footer Styling */
 footer {
@@ -49,10 +61,16 @@ footer div {
     text-align: right;
 }
 footer a {
-    color: red;
+    color:white;
 }
+footer a:hover {
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+}
+/* Hero Background Image */
 .hero {
-    height: 550px;
+    height: 600px;
     background-image: url(..//images/SLC.jpeg);
     background-size: cover;
     background-position: 100%;
@@ -61,4 +79,15 @@ footer a {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-end;
+    background-attachment: fixed;
+}
+/* About Me Section */
+#about {
+background-color: var(--primary-section-background);
+display: block;
+margin-bottom: 20px;
+padding: 50px;
+height: 300px;
+font-family: serif,fantasy;
+color: white;
 }
