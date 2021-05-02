@@ -99,19 +99,29 @@ background-color: white;
 display: flex;
 margin-bottom: 20px;
 padding: 50px;
-height: 300px;
+height: 500px;
 font-family: serif,fantasy;
 color: black;
 width: max-content;
 background-size: cover;
 }
-.bio {
+.bio-container {
     background-color: var(--primary-section-background);
     color: white;
     border-bottom-left-radius: 30px 30px;
     border-bottom-right-radius: 30px 30px;
     border-top-left-radius: 30px 30px;
     border-top-right-radius: 30px 30px;
+}
+.bio {
+    justify-content: flex-start;
+    flex-direction: column;
+    display: table;
+}
+
+article {
+    display: flex;
+    justify-content: center;
 }
 /* Work Section */
 
@@ -146,14 +156,14 @@ background-size: cover;
     display: flex;
     margin: 25px 25px;
     height: 125px;
-    background-size: cover;
+    background-size: contain;
 }
 #upcomingproject2 {
     background-image: url(../images/ComingSoon.png);
     display: flex;
     margin: 25px 25px;
     height: 125px;
-    background-size: cover;
+    background-size: contain;
 }
 .main-project {
     width: 50%;
