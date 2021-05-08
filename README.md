@@ -5,7 +5,7 @@
 
 ## CONTACT ME 
 
-* <a href="mailto:Sielerjosh@gmail.com">Sielerjosh@gmail.com</a>
+* <a href="mailto:Sielerjosh@gmail.com">Email</a>
         
 * <a href="https://github.com/Jsieler/">GitHub</a>
         
