@@ -12,3 +12,4 @@
         
 * <a href="https://www.linkedin.com/in/joshua-sieler-562445209/">Linkedin</a>
 
+<img width="1440" alt="Screen Shot 2021-05-08 at 10 04 59 AM" src="https://user-images.githubusercontent.com/80868375/117545945-35357700-afe5-11eb-8641-98b932599792.png">
