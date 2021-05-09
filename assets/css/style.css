@@ -182,7 +182,7 @@ article {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 980px){
     body {
-        padding: 25px 5px 5px 30px;
+        padding: 30px 5px 5px 5px;
     }
     header {
         padding-bottom: 0;
