@@ -181,6 +181,9 @@ article {
 }
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 980px){
+    body {
+        padding: 25px 5px 5px 30px;
+    }
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -192,7 +195,14 @@ article {
         width: 100%;
         justify-content: center;
       }
-      footer {
+    .hero {
+        height: 200px;
+        background-image: url(..//images/SLC.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 100%;
+      }     
+    footer {
           background-color: cornflowerblue;
       }
     .bio-container{
