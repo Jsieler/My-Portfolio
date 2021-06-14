@@ -138,8 +138,8 @@ article {
 .project-container h2 {
     text-align: center;
 }
-#horiseon {
-    background-image: url(../images/Horiseon.png);
+#cinamac{
+    background-image: url(../images/Cinamac.png);
     display: flex;
     margin: 0 25px;
     height: 550px;
@@ -152,12 +152,12 @@ article {
     height: 170px;
     background-size: cover;
 }
-#upcomingproject1 {
-    background-image: url(../images/ComingSoon.png);
+#horiseon{
+    background-image: url(../images/Horiseon.png);
     display: flex;
     margin: 25px 25px;
     height: 170px;
-    background-size: contain;
+    background-size: cover;
 }
 #upcomingproject2 {
     background-image: url(../images/ComingSoon.png);
@@ -209,3 +209,4 @@ article {
       flex: 1 100%;
     }
   }
+
