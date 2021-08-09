@@ -5,40 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Josh Sieler's Portfolio </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css"/>
     
 </head>
 <body>
 <header>
-    <h1> Joshua Sieler </h1>
-    <!-- Nav Menu Links -->
-    <nav>
-        <ul>
-            <li class="nav-item">
-        <a href="#about">About Me</a>
-             </li>     
-
-             <li class="nav-item">
-        <a href="#work">Work</a>
-            </li>
-
-            <li class="nav-item">
-        <a href="#contact">Contact Me</a>
-            </li>
-
-            <li class="nav-item">
-        <a href="#resume">Resume</a>
-            </li>
-        </ul>
-    </nav>
-</header>
+        <nav class="container-fluid navbar navbar-expand-lg navbar-dark primary-color">
+            <h1 class="pr-5 header-title">Joshua Sieler</h1>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resumel">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
 <!-- Hero Section -->
 <!-- Hero Background Image -->
  <section class="hero">
        
 </section>
 <!-- About Me Section -->
-<article>
+<article class="container">
 <div id="about" class="bio-container">
     <div class="bio">
         <img src="./assets/images/Bio-Image.jpg" width="250" height="300" alt="Joshua Sieler">
@@ -70,8 +75,8 @@
     <div class="project-title">HORISEON</div>
 </div>
 <div class="side-project">
-    <a href="coming soon" id="upcomingproject2"></a>
-    <div class="project-title">COMING-SOON</div>
+    <a href="https://github.com/Jsieler/wizard-sorting-quiz" id="hogwarts-library"></a>
+    <div class="project-title">HOGWARTS-LIBRARY</div>
 </div>
 </section>
 <!--Footer Contact Me -->
